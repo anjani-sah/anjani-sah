@@ -1,4 +1,7 @@
 name: GitHub Snake Game
+
+
+
 on:
 
   # Schedule the workflow to run daily at midnight UTC
@@ -7,9 +10,13 @@ on:
 
     - cron: "0 0 * * *"
 
+
+
   # Allow manual triggering of the workflow
 
   workflow_dispatch:
+
+
 
   # Trigger the workflow on pushes to the main branch
 
@@ -18,6 +25,8 @@ on:
     branches:
 
       - main
+
+
 
 jobs:
 
